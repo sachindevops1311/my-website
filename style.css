@@ -1,8 +1,8 @@
 /* Color palette */
 :root {
-  --blue: #2A04E0;
-  --purple: #500073;
-  --pink: #C62380;
+  --blue: #e0e7ac;
+  --purple: #4d086a;
+  --pink: #e3198b;
   --orange: #F14A00;
   --white: #ffffff;
   --dark: #111111;
@@ -411,4 +411,64 @@ html {
     font-size: 1.2rem;
     padding: 0.6rem 0.8rem;
   }
+}
+/* Industry Experience Section */
+.experience {
+  background-color: var(--blue);
+  padding: 4rem 2rem;
+}
+
+.experience-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.experience h2.section-title {
+  color: var(--pink);
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+}
+
+.experience-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.experience-card {
+  background-color: #500073;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 300px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-10px);
+}
+
+.experience-card h3 {
+  color: var(--orange);
+  margin-bottom: 0.5rem;
+}
+
+.experience-card .company {
+  font-weight: bold;
+  color: var(--pink);
+  margin-bottom: 0.3rem;
+}
+
+.experience-card .duration {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.experience-card .desc {
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
